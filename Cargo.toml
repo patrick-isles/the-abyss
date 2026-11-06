@@ -1,0 +1,12 @@
+[package]
+name = "the-abyss"
+version = "1.0.0"
+edition = "2021"
+authors = ["Patrick Isles <isles12123@outlook.com>"]
+description = "High-frequency market microstructure engine, dark pool topology mapper, VPIN toxic order flow quantifier, and predatory algo hunter."
+license = "MIT"
+
+[dependencies]
+colored = "2.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
